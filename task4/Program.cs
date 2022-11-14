@@ -13,4 +13,11 @@ if (number3 > max)
 {
     max = number3;
 }
+if (number1 == number2 & number2 == number3)
+{
+    Console.WriteLine($"Все три числа равные");
+}
+else
+{
 Console.WriteLine($"max = {max}");
+}
